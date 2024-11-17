@@ -1,0 +1,72 @@
+.box {
+    width: 25rem;
+    padding: 10px;
+    background: lightgray;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+h4 {
+
+    margin-right: 5px; 
+    margin-bottom: 0;
+}
+button{
+    background-color: #008542;
+    color: aquamarine;
+    border-color: rgb(120, 133, 129);
+    border-radius: 5px;
+}
+.completar {
+    color: #fff;
+    border-radius: .5rem;
+    background-color: #008542;
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px;
+}
+
+.borrar {
+    color: #fff;
+    border-radius: .5rem;
+    background-color: #d42a02;
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px;
+}
+
+.subtitulos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+}
+.box3{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+ul.lista {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: right; 
+}
+li {
+  
+    gap: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    align-items:start;
+}
+
+.col-id, .col-tarea {
+    font-weight: bold;
+}
